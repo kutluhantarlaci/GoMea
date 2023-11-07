@@ -10,7 +10,7 @@ export default function DiscountBox() {
                 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
                 </span>
             </div>
-            <img src='./assets/image_woman.jpg' alt='woman'/>
+            <img src='/assets/img_abla.png' alt='woman'/>
         </div>
     )
 }

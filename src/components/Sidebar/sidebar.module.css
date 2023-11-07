@@ -1,7 +1,8 @@
 .container {
     background: #FFFFFF;
-    padding: 44px;
-    width: 345px;
+    padding: 40px;
+    min-width: 340px;
+    max-width: 400px;
 }
 
 .title {
@@ -23,21 +24,25 @@
     gap: 16px;
 }
 
+.sections a {
+    text-decoration: none;
+}
+
 .section {
     display: flex;
     align-items: center;
     gap: 24px;
     border-radius: 16px;
     padding: 16px 24px;
-    color: var(--gray);
+    color: var(--text-gray);
 }
 
 .section:hover {
     cursor: pointer;
-    background: var(--yellow);
-    color: var(--white);
 }
 
-.section img{
-    fill: var(--gray);
+.active {
+    cursor: pointer;
+    background: var(--yellow);
+    color: var(--white);
 }

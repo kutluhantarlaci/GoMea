@@ -1,5 +1,10 @@
+'use client'
 import styles from './sidebar.module.css'
+import {Home, FoodOrder, Favorite, OrderHistory, Settings} from '@/components/Icons'
+import Link from "next/link";
+import {usePathname} from "next/navigation";
 export default function Sidebar () {
+    const pathname = usePathname()
     return (
         <div className={styles.container}>
             <div className={styles.title}>
@@ -7,26 +12,26 @@ export default function Sidebar () {
                 <span>.</span>
             </div>
             <div className={styles.sections}>
-                <div className={styles.section}>
-                    <img src='./assets/icon_home.svg' alt='home'/>
+                <Link href={'/'} className={`${styles.section} ${ pathname === '/' ? styles.active : ''}`}>
+                    <Home/>
                     <span>Home</span>
-                </div>
-                <div className={styles.section}>
-                    <img src='./assets/icon_food_order.svg' alt='food_order'/>
+                </Link>
+                <Link href={'/foodOrder'} className={`${styles.section} ${ pathname === '/foodOrder' ? styles.active : ''}`}>
+                    <FoodOrder/>
                     <span>Food Order</span>
-                </div>
-                <div className={styles.section}>
-                    <img src='./assets/icon_favorite.svg' alt='home'/>
+                </Link>
+                <Link href={'/favorites'} className={`${styles.section} ${ pathname === '/favorites' ? styles.active : ''}`}>
+                    <Favorite/>
                     <span>Favorite</span>
-                </div>
-                <div className={styles.section}>
-                    <img src='./assets/icon_order_history.svg' alt='home'/>
+                </Link>
+                <Link href={'/orderHistory'} className={`${styles.section} ${ pathname === '/orderHistory' ? styles.active : ''}`}>
+                    <OrderHistory/>
                     <span>Order History</span>
-                </div>
-                <div className={styles.section}>
-                    <img src='./assets/icon_settings.svg' alt='home'/>
+                </Link>
+                <Link href={'/settings'} className={`${styles.section} ${ pathname === '/settings' ? styles.active : ''}`}>
+                    <Settings/>
                     <span>Settings</span>
-                </div>
+                </Link>
             </div>
         </div>
     )

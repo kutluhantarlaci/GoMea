@@ -1,4 +1,5 @@
 import Sidebar  from '@/components/Sidebar'
+import RightBar  from 'src/components/Rightbar'
 import './global.css'
 export const metadata = {
   title: 'GoMeal',
@@ -11,6 +12,7 @@ export default function RootLayout({ children }) {
       <body className='container'>
       <Sidebar/>
       {children}
+      <RightBar/>
       </body>
     </html>
   )

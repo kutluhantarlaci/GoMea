@@ -1,15 +1,17 @@
 import styles from './page.module.css'
 import SearchInput from '@/components/SearchInput'
 import DiscountBox from "@/components/DiscountBox";
+import Category from "@/components/Category";
 
 export default function Home() {
   return (
-   <main className={styles.container}>
+   <div className={styles.container}>
        <div className={styles.navigation}>
            <span>Hello, Dan</span>
            <SearchInput/>
        </div>
        <DiscountBox/>
-   </main>
+       <Category/>
+   </div>
   )
 }

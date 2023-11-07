@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title h3{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.title a {
+    text-decoration: none;
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+.categoriesContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.iconCard {
+    background-color: var(--white);
+    padding: 40px;
+    flex: 1;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--text-gray);
+}

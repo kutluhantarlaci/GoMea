@@ -6,6 +6,7 @@
     border-radius: 16px;
     padding: 10px;
     gap: 18px;
+    padding-left: 20px;
 }
 
 .container img {
@@ -14,9 +15,12 @@
 }
 
 .container input {
+    color: var(--text-gray);
+    opacity: 0.6;
     border: none;
-    padding: 8px 60px;
+    padding-right: 100px;
     font-size: 18px;
-    min-width: 300px;
+    min-width: 500px;
     max-width: 600px;
+    outline: none;
 }

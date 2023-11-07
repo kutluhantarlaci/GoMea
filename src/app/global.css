@@ -2,12 +2,16 @@
 
 :root {
     --yellow : #F8B602;
-    --gray: #A098AE;
+    --text-gray: #A098AE;
+    --gray:#F5F5F5;
     --black: #2E2E2E;
     --red: #EB5757;
     --white: #FFFFFF;
 }
 
+*{
+    box-sizing: border-box;
+}
 body {
     font-family: Poppins, sans-serif;
     margin: 0;
