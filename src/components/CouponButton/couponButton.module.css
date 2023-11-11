@@ -1,0 +1,26 @@
+.container button:hover {
+    cursor: pointer;
+}
+
+.couponBtn {
+    font-family: Poppins, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 16px;
+    color: black;
+    border: 1px solid var(--yellow);
+    background:var(--gray);
+}
+
+.large {
+    padding: 10px;
+    width: 270px;
+}
+
+.xLarge {
+    padding: 10px;
+    width: 320px;
+}

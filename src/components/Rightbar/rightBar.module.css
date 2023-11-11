@@ -1,6 +1,8 @@
 .container {
     background: #FFFFFF;
-    padding: 40px;
-    min-width: 340px;
-    max-width: 400px;
+    padding: 30px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
 }

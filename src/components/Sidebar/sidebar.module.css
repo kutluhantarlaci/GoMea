@@ -1,27 +1,26 @@
 .container {
     background: #FFFFFF;
-    padding: 40px;
-    min-width: 340px;
-    max-width: 400px;
+    padding: 30px;
+    width: 320px;
 }
 
 .title {
     display: flex;
     justify-content: center;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
+    margin-bottom: 10px;
 }
 .title span:last-child{
     color: #F8B602;
 }
 
 .sections  {
-    font-size: 18px;
+    font-size: 14px;
     border-radius: 8px;
-    padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
 }
 
 .sections a {
@@ -33,7 +32,7 @@
     align-items: center;
     gap: 24px;
     border-radius: 16px;
-    padding: 16px 24px;
+    padding: 12px;
     color: var(--text-gray);
 }
 

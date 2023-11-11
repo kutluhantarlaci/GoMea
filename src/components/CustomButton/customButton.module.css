@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.container button:hover {
+    cursor: pointer;
+}
+
+.changeBtn {
+    font-family: Poppins, sans-serif;
+    border-radius: 8px;
+    color: var(--yellow);
+    border: 1px solid var(--yellow);
+    background:var(--white);
+    font-size: 12px;
+
+}
+
+.addNoteBtn {
+    font-family: Poppins, sans-serif;
+    border-radius: 8px;
+    color: var(--black);
+    border: 1px solid var(--text-gray);
+    background:var(--white);
+    font-size: 12px;
+
+}
+
+.addBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins, sans-serif;
+    font-size: 22px;
+    border-radius: 8px;
+    color: var(--white);
+    border: 1px solid var(--yellow);
+    background:var(--yellow);
+    padding: 4px;
+    width: 40px;
+    height: 40px;
+}
+
+.contained {
+    font-family: Poppins, sans-serif;
+    border-radius: 16px;
+    color: var(--white);
+    border: 1px solid var(--yellow);
+    background:var(--yellow);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.outlined {
+    font-family: Poppins, sans-serif;
+    border-radius: 16px;
+    color: var(--black);
+    border: 1px solid var(--yellow);
+    background:var(--gray);
+    font-weight: 500;
+    font-size: 18px;
+ }
+
+.small {
+    padding: 4px 2px;
+    width: 90px;
+}
+
+.medium {
+    padding: 12px;
+    width: 150px;
+}
+
+.large {
+    padding: 16px;
+    width: 240px;
+}
+
+.xLarge {
+    padding: 16px;
+    width: 320px;
+}

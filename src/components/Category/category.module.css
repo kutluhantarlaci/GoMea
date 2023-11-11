@@ -13,11 +13,14 @@
 .title h3{
     margin: 0;
     padding: 0;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 .title a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
     text-decoration: none;
     color: var(--yellow);
     cursor: pointer;
@@ -25,15 +28,15 @@
 
 .categoriesContainer {
     display: flex;
-    gap: 20px;
+    gap: 12px;
 }
 
 .iconCard {
     background-color: var(--white);
-    padding: 40px;
-    flex: 1;
+    padding: 20px 40px;
     border-radius: 16px;
     display: flex;
+    flex: 1 ;
     flex-direction: column;
     gap: 10px;
     align-items: center;

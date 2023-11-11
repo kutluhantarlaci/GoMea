@@ -1,0 +1,19 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icons:hover {
+    cursor: pointer;
+}
+
+.navigation img{
+    cursor: pointer;
+}

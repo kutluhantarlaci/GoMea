@@ -1,0 +1,23 @@
+.container span:first-child{
+    display: none;
+}
+
+.container span:nth-child(2) {
+    color: var(--yellow);
+}
+
+.container {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder {
+    font-weight: 700;
+}
+
+.addPrize span:first-child {
+    display: inline;
+}
