@@ -1,3 +1,4 @@
+"use client";
 import styles from "./customButton.module.css";
 export default function CustomButton({
   classname,

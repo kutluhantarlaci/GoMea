@@ -1,5 +1,5 @@
 import styles from "./searcInput.module.css";
-import Icon from "@/components/Icons";
+import { Icon } from "@/components";
 
 export default function SearchInput() {
   const color = "yellow";

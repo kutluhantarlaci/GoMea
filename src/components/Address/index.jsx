@@ -1,6 +1,5 @@
 import styles from "./address.module.css";
-import Icon from "@/components/Icons";
-import CustomButton from "@/components/CustomButton";
+import { Icon, CustomButton } from "@/components";
 export default function Address() {
   const color = "yellow";
   return (

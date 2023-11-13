@@ -1,5 +1,5 @@
 import styles from "./couponButton.module.css";
-import Icon from "@/components/Icons";
+import { Icon } from "@/components";
 
 export default function CouponButton({ type, size, action }) {
   return (

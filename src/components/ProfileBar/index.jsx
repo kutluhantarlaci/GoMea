@@ -1,5 +1,5 @@
 import styles from "./profileBar.module.css";
-import Icon from "@/components/Icons";
+import { Icon } from "@/components";
 export default function ProfileBar() {
   return (
     <div className={styles.container}>

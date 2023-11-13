@@ -1,7 +1,11 @@
 import styles from "./page.module.css";
-import SearchInput from "@/components/SearchInput";
-import DiscountBox from "@/components/DiscountBox";
-import Category from "@/components/Category";
+import {
+  SearchInput,
+  DiscountBox,
+  Category,
+  Popular,
+  RecentOrder,
+} from "@/components";
 
 export default function Home() {
   return (
@@ -12,6 +16,8 @@ export default function Home() {
       </div>
       <DiscountBox />
       <Category />
+      <Popular />
+      <RecentOrder />
     </div>
   );
 }

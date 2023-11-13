@@ -1,7 +1,5 @@
 import styles from "./orderMenu.module.css";
-import Prize from "@/components/Prize";
-import CouponButton from "@/components/CouponButton";
-import CustomButton from "@/components/CustomButton";
+import { Prize, CouponButton, CustomButton } from "@/components";
 export default function OrderMenu() {
   const productList = [
     {
@@ -22,7 +20,7 @@ export default function OrderMenu() {
   ];
   const products = productList.map((item, i) => {
     return (
-      <div className={styles.singleProduct}>
+      <div key={`product_${i}`} className={styles.singleProduct}>
         <img src={item.src} alt={item.name} />
         <div className={styles.productName}>
           <span>{item.name}</span>
@@ -37,7 +35,7 @@ export default function OrderMenu() {
       <h3>Order Menu</h3>
       <div className={styles.products}>{products}</div>
       <div className={styles.service}>
-        <span className={styles.serviceText}>Service</span>
+        <span>Service</span>
         <Prize prize={"1.00"} classname={"addPrize"} />
       </div>
       <div className={styles.total}>

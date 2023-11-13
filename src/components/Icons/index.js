@@ -3,7 +3,7 @@ import Favorite from "../../../public/assets/icon_favorites.svg";
 import FoodOrder from "../../../public/assets/icon_food_order.svg";
 import Home from "../../../public/assets/icon_home.svg";
 import Location from "../../../public/assets/icon_location.svg";
-import Love from "../../../public/assets/icon_love.svg";
+import Heart from "../../../public/assets/icon_heart.svg";
 import Notification from "../../../public/assets/icon_notification.svg";
 import OrderHistory from "../../../public/assets/icon_order_history.svg";
 import Search from "../../../public/assets/icon_search.svg";
@@ -16,27 +16,6 @@ import Pizza from "../../../public/assets/icon_pizza.svg";
 import Seafood from "../../../public/assets/icon_seafood.svg";
 import Star from "../../../public/assets/icon_star.svg";
 import RightArrow from "../../../public/assets/icon_right_arrow.svg";
-
-export {
-  Coupon,
-  Favorite,
-  FoodOrder,
-  Home,
-  Location,
-  Love,
-  Notification,
-  OrderHistory,
-  Search,
-  Settings,
-  Bakery,
-  Burger,
-  Beverage,
-  Chicken,
-  Pizza,
-  Seafood,
-  Star,
-  RightArrow,
-};
 
 export default function Icon({ name, style }) {
   const color = "yellow";
@@ -51,8 +30,8 @@ export default function Icon({ name, style }) {
       return <Home style={style} />;
     case "Location":
       return <Location style={style} />;
-    case "Love":
-      return <Love style={style} />;
+    case "Heart":
+      return <Heart style={style} />;
     case "Notification":
       return <Notification style={style} />;
     case "OrderHistory":

@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.title a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+.container ul {
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-between;
+    position: relative;
+}
+
+.productBox{
+    background-color: var(--white);
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    flex-direction: column;
+    border-radius: 16px;
+}
+
+.discountTag {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0 0 ;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px 20px 20px;
+    gap: 10px;
+}
+
+.productImage {
+    display: flex;
+    justify-content: center;
+}
+
+.productImage img{
+    width: 240px;
+}
+
+.productInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.namePrize span:nth-child(1){
+    font-weight: 600;
+}

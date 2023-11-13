@@ -1,14 +1,5 @@
 import styles from "./category.module.css";
-import {
-  Bakery,
-  Burger,
-  Beverage,
-  Chicken,
-  Pizza,
-  Seafood,
-  RightArrow,
-} from "@/components/Icons";
-import Icon from "@/components/Icons";
+import { Icon } from "@/components";
 import Link from "next/link";
 export default function Category() {
   const color = "yellow";

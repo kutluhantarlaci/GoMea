@@ -1,0 +1,10 @@
+.container span{
+    background-color: var(--red);
+    padding: 2px 12px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    color: var(--gray);
+    font-size: 12px;
+}
+
+
