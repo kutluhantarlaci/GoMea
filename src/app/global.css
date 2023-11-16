@@ -20,3 +20,16 @@ body {
     padding: 0;
     display: flex;
 }
+
+.container {
+    display: flex;
+}
+
+.main {
+    display: flex;
+    flex: 1 ;
+    flex-direction: column;
+    background: var(--gray);
+    padding: 30px;
+    gap: 20px;
+}

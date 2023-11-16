@@ -42,8 +42,6 @@ export default function OrderMenu() {
         <span>Total</span>
         <Prize prize={"202.00"} />
       </div>
-      <CouponButton size={"xLarge"} />
-      <CustomButton classname={"contained"} text={"Checkout"} size={"xLarge"} />
     </div>
   );
 }

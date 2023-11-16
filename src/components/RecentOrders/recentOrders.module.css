@@ -24,7 +24,8 @@
     cursor: pointer;
 }
 
-.productCardWrapper {
+.RecentProductCard{
     display: flex;
     gap: 20px;
 }
+

@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--white);
+    border-radius: 12px;
+    padding: 20px;
+    flex: 1;
+}
+
+.container span:nth-child(1) {
+    margin:0;
+    padding:0;
+    font-size: 14px;
+    color:var(--text-gray);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input {
+    border: 1px solid var(--text-gray);
+    border-radius: 12px;
+    padding: 14px;
+}
+
+.buttonContainer {
+    margin-left: auto;
+}

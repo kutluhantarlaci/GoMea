@@ -15,7 +15,7 @@
     background-image: url("/assets/img_background_balance.png");
     border-radius: 16px;
     padding: 26px;
-    background-repeat: round;
+    background-repeat: no-repeat;
 }
 
 .balanceBox {
@@ -24,7 +24,7 @@
     background: var(--white);
     border-radius: 16px;
     padding: 12px;
-    width: 40%;
+    width: 50%;
 }
 
 .balanceBox span:first-child{

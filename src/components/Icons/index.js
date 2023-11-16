@@ -1,3 +1,4 @@
+import Close from "../../../public/assets/icon_close.svg";
 import Coupon from "../../../public/assets/icon_coupon.svg";
 import Favorite from "../../../public/assets/icon_favorites.svg";
 import FoodOrder from "../../../public/assets/icon_food_order.svg";
@@ -20,6 +21,8 @@ import RightArrow from "../../../public/assets/icon_right_arrow.svg";
 export default function Icon({ name, style }) {
   const color = "yellow";
   switch (name) {
+    case "Close":
+      return <Close style={style} />;
     case "Coupon":
       return <Coupon style={style} />;
     case "Favorite":
